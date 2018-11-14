@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\bin\Debug\ConvertingTemps(BenM).exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\bin\Debug\ConvertingTemps(BenM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\bin\Debug\ConvertingTemps(BenM).pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\obj\Debug\ConvertingTemps(BenM).csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\obj\Debug\ConvertingTemps_BenM_.frmConvertingTemp.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\obj\Debug\ConvertingTemps_BenM_.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\obj\Debug\ConvertingTemps(BenM).csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\obj\Debug\ConvertingTemps(BenM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 4 (Procedures & Functions)\ConvertingTemps(BenM)\ConvertingTemps(BenM)\obj\Debug\ConvertingTemps(BenM).pdb
