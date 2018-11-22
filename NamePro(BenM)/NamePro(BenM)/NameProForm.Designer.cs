@@ -28,62 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblFirstName = new System.Windows.Forms.Label();
-            this.lblMidName = new System.Windows.Forms.Label();
-            this.lblLastName = new System.Windows.Forms.Label();
-            this.txtFirstName = new System.Windows.Forms.TextBox();
-            this.txtMiddleName = new System.Windows.Forms.TextBox();
-            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.lblStreet = new System.Windows.Forms.Label();
+            this.lblCity = new System.Windows.Forms.Label();
+            this.lblProvince = new System.Windows.Forms.Label();
+            this.txtStreetAddress = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtProvince = new System.Windows.Forms.TextBox();
             this.btnPressMe = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lblFirstName
+            // lblStreet
             // 
-            this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Location = new System.Drawing.Point(64, 43);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(85, 13);
-            this.lblFirstName.TabIndex = 0;
-            this.lblFirstName.Text = "Enter First Name";
+            this.lblStreet.AutoSize = true;
+            this.lblStreet.Location = new System.Drawing.Point(64, 43);
+            this.lblStreet.Name = "lblStreet";
+            this.lblStreet.Size = new System.Drawing.Size(104, 13);
+            this.lblStreet.TabIndex = 0;
+            this.lblStreet.Text = "Enter Street Address";
+            this.lblStreet.Click += new System.EventHandler(this.lblFirstName_Click);
             // 
-            // lblMidName
+            // lblCity
             // 
-            this.lblMidName.AutoSize = true;
-            this.lblMidName.Location = new System.Drawing.Point(63, 120);
-            this.lblMidName.Name = "lblMidName";
-            this.lblMidName.Size = new System.Drawing.Size(97, 13);
-            this.lblMidName.TabIndex = 1;
-            this.lblMidName.Text = "Enter Middle Name";
+            this.lblCity.AutoSize = true;
+            this.lblCity.Location = new System.Drawing.Point(64, 98);
+            this.lblCity.Name = "lblCity";
+            this.lblCity.Size = new System.Drawing.Size(52, 13);
+            this.lblCity.TabIndex = 1;
+            this.lblCity.Text = "Enter City";
             // 
-            // lblLastName
+            // lblProvince
             // 
-            this.lblLastName.AutoSize = true;
-            this.lblLastName.Location = new System.Drawing.Point(63, 205);
-            this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(86, 13);
-            this.lblLastName.TabIndex = 2;
-            this.lblLastName.Text = "Enter Last Name";
+            this.lblProvince.AutoSize = true;
+            this.lblProvince.Location = new System.Drawing.Point(64, 171);
+            this.lblProvince.Name = "lblProvince";
+            this.lblProvince.Size = new System.Drawing.Size(77, 13);
+            this.lblProvince.TabIndex = 2;
+            this.lblProvince.Text = "Enter Province";
             // 
-            // txtFirstName
+            // txtStreetAddress
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(172, 40);
-            this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(100, 20);
-            this.txtFirstName.TabIndex = 3;
+            this.txtStreetAddress.Location = new System.Drawing.Point(172, 40);
+            this.txtStreetAddress.Name = "txtStreetAddress";
+            this.txtStreetAddress.Size = new System.Drawing.Size(100, 20);
+            this.txtStreetAddress.TabIndex = 3;
             // 
-            // txtMiddleName
+            // txtCity
             // 
-            this.txtMiddleName.Location = new System.Drawing.Point(172, 113);
-            this.txtMiddleName.Name = "txtMiddleName";
-            this.txtMiddleName.Size = new System.Drawing.Size(100, 20);
-            this.txtMiddleName.TabIndex = 4;
+            this.txtCity.Location = new System.Drawing.Point(172, 98);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(100, 20);
+            this.txtCity.TabIndex = 4;
             // 
-            // txtLastName
+            // txtProvince
             // 
-            this.txtLastName.Location = new System.Drawing.Point(172, 202);
-            this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(100, 20);
-            this.txtLastName.TabIndex = 5;
+            this.txtProvince.Location = new System.Drawing.Point(172, 164);
+            this.txtProvince.Name = "txtProvince";
+            this.txtProvince.Size = new System.Drawing.Size(100, 20);
+            this.txtProvince.TabIndex = 5;
             // 
             // btnPressMe
             // 
@@ -101,14 +102,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(533, 309);
             this.Controls.Add(this.btnPressMe);
-            this.Controls.Add(this.txtLastName);
-            this.Controls.Add(this.txtMiddleName);
-            this.Controls.Add(this.txtFirstName);
-            this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.lblMidName);
-            this.Controls.Add(this.lblFirstName);
+            this.Controls.Add(this.txtProvince);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.txtStreetAddress);
+            this.Controls.Add(this.lblProvince);
+            this.Controls.Add(this.lblCity);
+            this.Controls.Add(this.lblStreet);
             this.Name = "frmNamePro";
-            this.Text = "What is my name?";
+            this.Text = "Address Program";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,12 +117,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.Label lblMidName;
-        private System.Windows.Forms.Label lblLastName;
-        private System.Windows.Forms.TextBox txtFirstName;
-        private System.Windows.Forms.TextBox txtMiddleName;
-        private System.Windows.Forms.TextBox txtLastName;
+        private System.Windows.Forms.Label lblStreet;
+        private System.Windows.Forms.Label lblCity;
+        private System.Windows.Forms.Label lblProvince;
+        private System.Windows.Forms.TextBox txtStreetAddress;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtProvince;
         private System.Windows.Forms.Button btnPressMe;
     }
 }

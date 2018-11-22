@@ -21,5 +21,10 @@ namespace NamePro_BenM_
         {
 
         }
+
+        private void lblFirstName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
