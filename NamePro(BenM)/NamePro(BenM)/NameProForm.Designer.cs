@@ -35,6 +35,10 @@
             this.txtCity = new System.Windows.Forms.TextBox();
             this.txtProvince = new System.Windows.Forms.TextBox();
             this.btnPressMe = new System.Windows.Forms.Button();
+            this.lblAptNumb = new System.Windows.Forms.Label();
+            this.txtAptNumb = new System.Windows.Forms.TextBox();
+            this.lblPostalCode = new System.Windows.Forms.Label();
+            this.txtPostalCode = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblStreet
@@ -59,7 +63,7 @@
             // lblProvince
             // 
             this.lblProvince.AutoSize = true;
-            this.lblProvince.Location = new System.Drawing.Point(64, 171);
+            this.lblProvince.Location = new System.Drawing.Point(64, 154);
             this.lblProvince.Name = "lblProvince";
             this.lblProvince.Size = new System.Drawing.Size(77, 13);
             this.lblProvince.TabIndex = 2;
@@ -81,7 +85,7 @@
             // 
             // txtProvince
             // 
-            this.txtProvince.Location = new System.Drawing.Point(172, 164);
+            this.txtProvince.Location = new System.Drawing.Point(172, 151);
             this.txtProvince.Name = "txtProvince";
             this.txtProvince.Size = new System.Drawing.Size(100, 20);
             this.txtProvince.TabIndex = 5;
@@ -96,11 +100,47 @@
             this.btnPressMe.UseVisualStyleBackColor = true;
             this.btnPressMe.Click += new System.EventHandler(this.btnPressMe_Click);
             // 
+            // lblAptNumb
+            // 
+            this.lblAptNumb.AutoSize = true;
+            this.lblAptNumb.Location = new System.Drawing.Point(305, 43);
+            this.lblAptNumb.Name = "lblAptNumb";
+            this.lblAptNumb.Size = new System.Drawing.Size(101, 13);
+            this.lblAptNumb.TabIndex = 7;
+            this.lblAptNumb.Text = "Appartment Number";
+            // 
+            // txtAptNumb
+            // 
+            this.txtAptNumb.Location = new System.Drawing.Point(412, 40);
+            this.txtAptNumb.Name = "txtAptNumb";
+            this.txtAptNumb.Size = new System.Drawing.Size(100, 20);
+            this.txtAptNumb.TabIndex = 8;
+            // 
+            // lblPostalCode
+            // 
+            this.lblPostalCode.AutoSize = true;
+            this.lblPostalCode.Location = new System.Drawing.Point(64, 226);
+            this.lblPostalCode.Name = "lblPostalCode";
+            this.lblPostalCode.Size = new System.Drawing.Size(88, 13);
+            this.lblPostalCode.TabIndex = 9;
+            this.lblPostalCode.Text = "Enter Postalcode";
+            // 
+            // txtPostalCode
+            // 
+            this.txtPostalCode.Location = new System.Drawing.Point(172, 219);
+            this.txtPostalCode.Name = "txtPostalCode";
+            this.txtPostalCode.Size = new System.Drawing.Size(100, 20);
+            this.txtPostalCode.TabIndex = 10;
+            // 
             // frmNamePro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(533, 309);
+            this.Controls.Add(this.txtPostalCode);
+            this.Controls.Add(this.lblPostalCode);
+            this.Controls.Add(this.txtAptNumb);
+            this.Controls.Add(this.lblAptNumb);
             this.Controls.Add(this.btnPressMe);
             this.Controls.Add(this.txtProvince);
             this.Controls.Add(this.txtCity);
@@ -124,6 +164,10 @@
         private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.TextBox txtProvince;
         private System.Windows.Forms.Button btnPressMe;
+        private System.Windows.Forms.Label lblAptNumb;
+        private System.Windows.Forms.TextBox txtAptNumb;
+        private System.Windows.Forms.Label lblPostalCode;
+        private System.Windows.Forms.TextBox txtPostalCode;
     }
 }
 
